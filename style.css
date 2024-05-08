@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Courier New, Courier, monospace;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    gap: 1px; 
+}
+
+.items {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(189, 14, 14, 0.37); 
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+
+    
